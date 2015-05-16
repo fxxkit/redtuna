@@ -5,11 +5,7 @@
             <div class="wrap">
                 {{> header }}
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            {{{ body }}}
-                        </div>
-                    </div>
+                    {{{ body }}}
                 </div>
                 {{> footer }}
             </div>

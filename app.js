@@ -34,6 +34,10 @@ app.get('/greeting', function (req, res) {
     });
 });
 
+app.get('/search', function (req, res) {
+    res.render('search', {});
+});
+
 // start the server
 app.set('port', process.env.PORT || 3000);
 var server = app.listen(app.get('port'), function() {
